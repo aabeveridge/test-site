@@ -40,7 +40,7 @@ body {
 }
 
 .nav-link1:hover, .nav-link1:link, .nav-links:hover, .nav-links:link {
-	color: #CCFFFF;
+	color: #999933;
 	text-decoration: none;
 	outline: 0;
 }
@@ -61,12 +61,12 @@ body {
 }
 
 #menudown, #menuup {
-	font-size: 40px;
-	color: #888888;
+	font-size: 50px;
+	color:white;
 }
 
 #menudown:hover, #menuup:hover {
-	color:white;
+	color: #888888;
 }
 
 
@@ -85,29 +85,19 @@ body {
 }
 
 .nav-links, .nav-links:focus, .nav-link1, .nav-link1:focus {
-	color: #66CCFF;
-	font-size: 18px;
+	color: #CCFF33;
+	font-size: 21px;
 	outline:0;
+	padding-bottom: 2px;
 }
 
 .nav-icon, .nav-icon:focus {
 	float: right;
-	color: white;
-	font-size: 22px;
-	margin-top: -2px;
-	margin-right: 16px;
+	color: #E8E8E8;
+	font-size: 28px;
+	margin-top: -6px;
+	margin-right: 25px;
 	outline:0;
-}
-
-.connect-icons, .connect-icons:focus {
-	font-size: 24px;
-	color: #484848;
-	margin-left: 22px;
-	outline:0;
-}
-
-.connect-icons:hover {
-	color:#909090;
 }
 
 .nav-icon:hover {
