@@ -15,9 +15,18 @@ $("#menuup").click(function(){
 });
 
 $("#cover-hi").click(function(){
-    $("#hiddennav").show();
+  $("#hiddennav").show();
+  $("#menuup").show();
+  $("#menudown").hide();
+  $( "#menu" ).css('margin-bottom','-40px');
+  $( "#cover-text" ).css('margin-top','0px');
 });
 
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
+
+$('[data-toggle="popover"]').popover({
+  placement: "bottom",
+  trigger: "hover"
+})

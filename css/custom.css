@@ -20,7 +20,7 @@ body {
 	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 20px;
-	margin-left: -30px;
+	margin-left: -32px;
 	outline: 0;
 }
 
@@ -30,13 +30,16 @@ body {
 	outline: 0;
 }
 
-#cover-text span {
+#cover-text a, #cover-text a:hover {
 	font-size: 16px;
 	color: #669999;
+	text-decoration: none;
+	outline: 0;
+	cursor: default;
 }
 
 #title1 {
-	margin-left: -30px;
+	margin-left: -32px;
 }
 
 .nav-link1:hover, .nav-link1:link, .nav-links:hover, .nav-links:link {
@@ -85,7 +88,7 @@ body {
 }
 
 .nav-links, .nav-links:focus, .nav-link1, .nav-link1:focus {
-	color: #CCFF33;
+	color: #CCFF66;
 	font-size: 21px;
 	outline:0;
 	padding-bottom: 2px;
@@ -109,9 +112,13 @@ body {
 	font-size: 16px;
 }
 
-#pdf-line {
+#pdf-line1, #pdf-line3 {
 	margin-top: -5px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+#pdf-line2, #pdf-line4 {
+	margin-bottom: 20px;
 }
 
 .modal-title, .close {
@@ -141,4 +148,25 @@ body {
 
 #connect {
 	margin-top: 25px;
+}
+
+.popover-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.popover-content {
+	font-size: 16px;
+}
+
+.popover {
+	max-width: 400px;
+}
+
+#projectsModal p {
+	margin-top: 10px;
+}
+
+#teachModal li {
+	margin-bottom: 15px;
 }
