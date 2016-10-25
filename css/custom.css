@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background: none;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -8,7 +8,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+	background-size:100% auto;
 }
 
 #top-container {
