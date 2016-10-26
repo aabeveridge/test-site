@@ -2,7 +2,6 @@ body {
 	background: none;
 	font-family: 'Roboto Slab', serif;
 	min-height: 100%;
-	padding-right: 0px !important
 }
 
 .full {
@@ -14,12 +13,9 @@ body {
 	min-height: 100%;
 }
 
-body, body.modal {
-    margin-right: 0 !important;
-}
-
-body.modal {
-    overflow-y: hidden;
+body.modal-open {
+margin-left: auto;
+margin-right: auto;
 }
 
 #top-container {
