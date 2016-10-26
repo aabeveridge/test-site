@@ -1,18 +1,16 @@
 body {
-	background:none;
+	background: none;
 	font-family: 'Roboto Slab', serif;
+	min-height: 100%;
 }
 
 .full {
   background: url('computer8.jpg') no-repeat center center fixed;
-	-webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  /*background-size: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   background-size: cover;
+	min-height: 100%;
 }
 
 #top-container {
