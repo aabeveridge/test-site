@@ -14,8 +14,12 @@ body {
 	min-height: 100%;
 }
 
-.modal-open {
-  overflow-y: auto;
+body, body.modal {
+    margin-right: 0 !important;
+}
+
+body.modal {
+    overflow-y: hidden;
 }
 
 #top-container {
