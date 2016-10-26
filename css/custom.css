@@ -4,6 +4,13 @@ body {
 	min-height: 100%;
 }
 
+.modal-open {
+overflow: hidden
+width: calc(100% - 17px) //for chrome/safari
+width: -moz-calc(100% - 16px) //for firefox
+width: -ms-calc(100% - XXpx) // where "XX" equals the width of the scrollbar in IE)
+}
+
 .full {
   background: url('computer8.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,11 +18,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 	min-height: 100%;
-}
-
-body.modal-open {
-margin-left: auto;
-margin-right: auto;
 }
 
 #top-container {

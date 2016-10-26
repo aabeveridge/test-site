@@ -30,5 +30,3 @@ $('[data-toggle="popover"]').popover({
   placement: "bottom",
   trigger: "hover"
 })
-
-$("#cover-hi").attr("data-toggle", "modal");
