@@ -30,7 +30,3 @@ $('[data-toggle="popover"]').popover({
   placement: "bottom",
   trigger: "hover"
 })
-
-if(jQuery('#cover-hi').data('clicked')) {
-    $( "#cover-hi" ).css('margin-left','0px');
-}
