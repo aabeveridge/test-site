@@ -2,7 +2,15 @@ body {
 	background: none;
 	font-family: 'Roboto Slab', serif;
 	min-height: 100%;
-	padding-right: 0 !important;
+}
+
+body.modal-open {
+overflow-y: auto !important;
+padding-right: 0 !important;
+}
+
+.modal-scrollbar-measure {
+overflow: hidden;
 }
 
 .full {
@@ -25,7 +33,6 @@ body {
 	margin-bottom: 20px;
 	margin-left: -32px;
 	outline: 0;
-	padding-right: 0 !important;
 }
 
 #cover-hi:hover, #cover-hi:link, #cover-hi:active {
