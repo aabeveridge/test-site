@@ -30,3 +30,12 @@ $('[data-toggle="popover"]').popover({
   placement: "bottom",
   trigger: "hover"
 })
+
+var nb = $('#cover-hi');
+$('.modal')
+    .on('show.bs.modal', function () {
+        nb.width(nb.width());
+    })
+    .on('hidden.bs.modal', function () {
+        nb.width(nb.width('auto'));
+    });
